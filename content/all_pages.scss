@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+$bkgnd: #000000;
+$bkgnd_header: #202020;
+$grey_bkgnd: #C4C4C4;
+
+* {
+  font-family: Bebas Neue;
+}
+
+header{
+  display: flex;
+  min-height:120px;
+  background-color: $bkgnd_header;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+body {
+  margin: 0;
+  background: $bkgnd;
+}
+
+#mapid { height: 780px; }
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+
+}
+
+.about-us-wrapper {
+  display: flex;
+  justify-content: center;
+
+}
+
+.logo-container {
+  display: flex;
+}
+
+
+.logo-pic{
+  width: 118px;
+  height: 116px;
+  margin-left: 10px;
+}
+
+.header-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.grey-title-text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  color: #C4C4C4;
+  margin: 0;
+}
+
+.white-title-text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.about-us-title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 120px;
+  line-height: 120px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.about-us-text{
+  width: 1305px;
+  height: 1010px;
+  background: $grey_bkgnd;
+  border-radius: 50px;
+  margin-top: 57px;
+
+}
+
+.header-section{
+  display: flex;
+  position: relative;
+  margin-right: 25px;
+
+
+}
+
+.menu-btn-container {
+  display: flex;
+  align-items: center;
+
+}
+
+.menu-btn {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: $grey_bkgnd;
+}
+
+.popup-menu {
+  position: absolute;
+  top: 200px;
+  right: 50px;
+  background-color: $grey_bkgnd;
+  border: 3px solid $bkgnd;
+}
+
+.language-toggle-container {
+  display: flex;
+  justify-content: center;
+  margin-right: 25px;
+}
+.language-toggle-link {
+  font-size: 46px;
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.lan_link {
+  margin-top: 30px;
+  margin-right: 15px;
+}

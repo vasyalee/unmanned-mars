@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="content/all_pages.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+    <title>Unmanned Mars</title>
+  </head>
+  <body>
+
+    <!-- Шапка сайта -->
+    <header>
+      <div class="logo-container">
+        <a href="index.html"><img src="content/img/logo.svg" alt="logo" class="logo-pic"></a>
+        <div class="header-title">
+          <p class="grey-title-text">Unmanned</p>
+          <p class="white-title-text">Mars</p>
+        </div>
+      </div>
+
+
+      <div class="header-section">
+        <div class="">
+          <!-- Переключатель языка -->
+        </div>
+
+        <div class="menu-btn-container">
+          <!-- Кнопка гамбургер меню -->
+
+          <button class="menu-btn" type="button"></div>
+            <section class="popup-menu visually-hidden">
+              <ul>
+                <li class="popup-menu-link"><a href="index.html">Home</a></li>
+                <li class="popup-menu-link"><a href="map.html">Map</a></li>
+                <li class="popup-menu-link"><a href="about_us.html">About us</a></li>
+                <li class="popup-menu-link"><a href="donate.html">Donate</a></li>
+              </ul>
+            </section>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h1 class="visually-hidden">Mars map</h1>
+      <!-- Карта -->
+      <div id="mapid"></div>
+      <script>
+        var map = L.map('mapid');
+      </script>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

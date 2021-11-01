@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="180"
+   height="180"
+   viewBox="0 0 47.625 47.625"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="marstest2.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="2.0427529"
+     inkscape:cx="90.319293"
+     inkscape:cy="90.319293"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2663" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <ellipse
+       style="fill:#ff651f;fill-opacity:1;stroke:#000000;stroke-width:0.208513;stroke-opacity:0"
+       id="path846"
+       cx="22.796036"
+       cy="24.868401"
+       rx="15.959354"
+       ry="15.570786" />
+    <path
+       style="fill:#202020;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0"
+       d="m 14.681606,20.75041 h 10.583333 v 1.322916 H 14.681606 Z"
+       id="path2667" />
+    <path
+       style="fill:#202020;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0;fill-opacity:1"
+       d="M 9.2604166,23.8125 H 31.75 v 1.322916 H 9.2604166 Z"
+       id="path2669" />
+    <path
+       style="fill:#202020;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0;fill-opacity:1"
+       d="m 16.503841,27.004112 v 1.322916 h 6.614584 v -1.322916 z"
+       id="path2671" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Слой 2">
+    <path
+       id="path1072"
+       style="fill:#202020;fill-opacity:1;stroke-width:0.272129"
+       transform="scale(0.26458333)"
+       d="m 127.27539,21.515625 c -12.75982,0 -23.09961,9.183646 -23.09961,20.515625 0,3.061561 0.75761,5.971355 2.11133,8.576172 l 20.98828,36.560547 20.99023,-36.560547 c 1.35343,-2.604563 2.11133,-5.514611 2.11133,-8.576172 0,-11.331979 -10.34174,-20.515625 -23.10156,-20.515625 z m 0,8.205078 c 7.65219,0 13.86133,5.514487 13.86133,12.310547 0,6.796067 -6.20914,12.310547 -13.86133,12.310547 -7.6522,0 -13.85937,-5.51448 -13.85937,-12.310547 0,-6.79606 6.20717,-12.310547 13.85937,-12.310547 z m 10.88086,56.826172 c -0.0234,0.02003 -0.16321,0.15613 -0.33008,0.320313 0.014,-0.0257 0.0227,-0.05539 0.0352,-0.08203 l -0.0606,0.105469 c 0.009,-0.0087 0.0151,-0.01317 0.0234,-0.02148 -0.01,0.01739 -0.0226,0.03186 -0.0332,0.04883 0.11047,-0.110816 0.22049,-0.2175 0.33203,-0.333985 0.0219,-0.02305 0.0275,-0.03031 0.0332,-0.03711 z m -0.36523,0.371094 c -0.004,0.0045 -0.009,0.0095 -0.0137,0.01367 l -0.008,0.01758 c 0.007,-0.0102 0.0151,-0.02029 0.0215,-0.03125 z m 0.37109,-0.285157 c -0.002,0.01058 -0.007,0.023 -0.008,0.0332 -0.0295,0.275754 0.0757,1.10499 0.0625,0.828125 -0.0136,-0.287433 -0.0344,-0.574209 -0.0547,-0.861329 z" />
+  </g>
+</svg>
