@@ -48,10 +48,13 @@
     <main>
       <h1 class="visually-hidden">Mars map</h1>
       <!-- Карта -->
-      <div id="mapid"></div>
-      <script>
-        var map = L.map('mapid');
-      </script>
+      <img src="content/img/map_ready.png"  usemap="#map">
+      <map name="map">
+        <area shape="rect" coords="430,104,578,200" href="#">
+        <area shape="rect" coords="394,212,457,235" href="#">
+        <area shape="rect" coords="274,331,488,379" href="#">
+        <area shape="rect" coords="139,242,179,272" href="#">
+      </map>
     </main>
     <script src="script.js"></script>
   </body>
