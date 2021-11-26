@@ -21,6 +21,12 @@ body {
   background: $bkgnd;
 }
 
+main {
+  display: flex;
+  justify-content: space-between;
+  min-height: 744px;
+}
+
 #mapid { height: 780px; }
 
 .visually-hidden {
@@ -137,4 +143,68 @@ body {
 .lan_link {
   margin-top: 30px;
   margin-right: 15px;
+}
+
+.info_container {
+  position: relative;
+  background-color: $grey_bkgnd;
+  width: 553px;
+  height: 744px;
+  margin-top: 8px;
+  border-radius: 50px;
+  img {
+    margin-top: 75px;
+  }
+  h2 {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  .section-text-block{
+    font-size: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #202020;
+
+  }
+  span{
+    font-size: 25px;
+
+  }
+  a {
+    text-decoration: none;
+    color: $bkgnd;
+  }
+
+}
+.rectangle {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 254px;
+   height: 56px;
+   border-radius: 50px;
+   background: #FF651F;
+   position: absolute;
+   left: 149px;
+   right: 149px;
+   top: 666px;
+
+
+
+}
+
+.rectangle:hover{
+
+ background: #FF651F;
+ box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.25);
+}
+
+.rectangle:active{
+
+ background: #FF651F;
+ box-shadow: inset 20px 20px 4px rgba(0, 0, 0, 0.25);
 }

@@ -25,8 +25,11 @@
 
 
       <div class="header-section">
-        <div class="">
+        <div class="language-toggle-container">
           <!-- Переключатель языка -->
+          <a href="#" class="lan_link"><span class="language-toggle-link">ru</span></a>
+          <a href="about_us.html" class="lan_link"><span class="language-toggle-link">en</span></a>
+
         </div>
 
         <div class="menu-btn-container">
@@ -49,13 +52,33 @@
       <h1 class="visually-hidden">Mars map</h1>
       <!-- Карта -->
       <img src="content/img/map_ready.png"  usemap="#map">
+      <div class="info_container" id="infoContainer">
+        <img src="content/img/acidalia_planitia.png" alt="acidalia_planitia">
+        <div id="infoTitle"><h2>{{title}}</h2></div>
+          
+  
+          <div id="sectionText"><p class="section-text-block">{{sectionText}}</p></div>
+       
+        <div class="rectangle" tabindex="0">
+            <div id="wikiLink"><span><a href="https://en.wikipedia.org/wiki/Acidalia_Planitia">See more on wiki</a></span></div>
+        </div>
+      </div>
       <map name="map">
-        <area shape="rect" coords="430,104,578,200" href="#">
-        <area shape="rect" coords="394,212,457,235" href="#">
-        <area shape="rect" coords="274,331,488,379" href="#">
-        <area shape="rect" coords="139,242,179,272" href="#">
+      <div id="mapMethods">
+        <area shape="rect" coords="406,97,619,232" href="#"> <!-- Acidalia Planitia-->
+        <area shape="rect" coords="383,179,472,254" href="#"> <!-- Gale crater-->
+        <area shape="rect" coords="112,206,208,286" href="#"> <!-- Olympus Mons-->
+        <area shape="rect" coords="278,302,518,401" href="#"> <!--Valles Marineris-->
+      </div>
       </map>
+
     </main>
     <script src="script.js"></script>
+    <script src="map_script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script>
+    
+    </script>
+  
   </body>
 </html>

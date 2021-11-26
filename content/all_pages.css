@@ -22,6 +22,16 @@ body {
   background: #000000;
 }
 
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 744px;
+}
+
 #mapid {
   height: 780px;
 }
@@ -156,4 +166,68 @@ body {
 .lan_link {
   margin-top: 30px;
   margin-right: 15px;
+}
+
+.info_container {
+  position: relative;
+  background-color: #C4C4C4;
+  width: 553px;
+  height: 744px;
+  margin-top: 8px;
+  border-radius: 50px;
+}
+.info_container img {
+  margin-top: 75px;
+}
+.info_container h2 {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin-top: 0px;
+}
+.info_container .section-text-block {
+  font-size: 25px;
+  line-height: 25px;
+  text-align: center;
+  color: #202020;
+}
+.info_container span {
+  font-size: 25px;
+}
+.info_container a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.rectangle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 254px;
+  height: 56px;
+  border-radius: 50px;
+  background: #FF651F;
+  position: absolute;
+  left: 149px;
+  right: 149px;
+  top: 666px;
+}
+
+.rectangle:hover {
+  background: #FF651F;
+  -webkit-box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 20px 20px 4px rgba(0, 0, 0, 0.25);
+}
+
+.rectangle:active {
+  background: #FF651F;
+  -webkit-box-shadow: inset 20px 20px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 20px 20px 4px rgba(0, 0, 0, 0.25);
 }
