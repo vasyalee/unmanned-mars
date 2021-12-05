@@ -48,34 +48,33 @@
       </div>
     </header>
 
-    <main>
+    <main id="app">
       <h1 class="visually-hidden">Mars map</h1>
       <!-- Карта -->
       <img src="content/img/map_ready.png"  usemap="#map">
-      <div class="info_container" id="infoContainer">
+      <div class="info_container">
         <img src="content/img/acidalia_planitia.png" alt="acidalia_planitia">
-        <div id="infoTitle"><h2>{{title}}</h2></div>
+        <h2>{{title}}</h2>
           
   
-          <div id="sectionText"><p class="section-text-block">{{sectionText}}</p></div>
+        <p class="section-text-block">{{sectionText}}</p>
        
         <div class="rectangle" tabindex="0">
-            <div id="wikiLink"><span><a href="https://en.wikipedia.org/wiki/Acidalia_Planitia">See more on wiki</a></span></div>
+            <span><a v-bind:href='link'>See more on wiki</a></span>
         </div>
       </div>
       <map name="map">
-      <div id="mapMethods">
-        <area shape="rect" coords="406,97,619,232" href="#"> <!-- Acidalia Planitia-->
-        <area shape="rect" coords="383,179,472,254" href="#"> <!-- Gale crater-->
-        <area shape="rect" coords="112,206,208,286" href="#"> <!-- Olympus Mons-->
-        <area shape="rect" coords="278,302,518,401" href="#"> <!--Valles Marineris-->
-      </div>
+        <area shape="rect" coords="406,97,619,232" href="#" v-on:click="showInfo('Acidalia')"> <!-- Acidalia Planitia-->
+        <area shape="rect" coords="383,179,472,254" href="#" v-on:click="showInfo('Gale')"> <!-- Gale crater-->
+        <area shape="rect" coords="112,206,208,286" href="#" v-on:click="showInfo('Olympus')"> <!-- Olympus Mons-->
+        <area shape="rect" coords="278,302,518,401" href="#" v-on:click="showInfo('Valles')"> <!--Valles Marineris--> 
       </map>
 
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
     <script src="script.js"></script>
     <script src="map_script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    
     <script>
     
     </script>
