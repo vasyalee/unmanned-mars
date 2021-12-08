@@ -51,9 +51,9 @@
     <main id="app">
       <h1 class="visually-hidden">Mars map</h1>
       <!-- Карта -->
-      <img src="content/img/map_ready.png"  usemap="#map">
+      <img src="content/img/map_final.png"  usemap="#map">
       <div class="info_container">
-        <img src="content/img/acidalia_planitia.png" alt="acidalia_planitia">
+        <img v-bind:src="img" alt="acidalia_planitia">
         <h2>{{title}}</h2>
           
   
@@ -65,9 +65,9 @@
       </div>
       <map name="map">
         <area shape="rect" coords="406,97,619,232" href="#" v-on:click="showInfo('Acidalia')"> <!-- Acidalia Planitia-->
-        <area shape="rect" coords="383,179,472,254" href="#" v-on:click="showInfo('Gale')"> <!-- Gale crater-->
+        <area shape="rect" coords="1025,286,1206,382" href="#" v-on:click="showInfo('Gale')"> <!-- Gale crater-->
         <area shape="rect" coords="112,206,208,286" href="#" v-on:click="showInfo('Olympus')"> <!-- Olympus Mons-->
-        <area shape="rect" coords="278,302,518,401" href="#" v-on:click="showInfo('Valles')"> <!--Valles Marineris--> 
+        <area shape="rect" coords="307,320,487,410" href="#" v-on:click="showInfo('Valles')"> <!--Valles Marineris--> 
       </map>
 
     </main>
